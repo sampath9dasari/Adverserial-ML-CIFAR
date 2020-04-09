@@ -31,8 +31,10 @@ def load_cifar10(dir):
         x_list.append(X)
         y_list.append(Y)
     X_train = np.concatenate(x_list)
+    X_train = X_train/255
     Y_train = np.concatenate(y_list)
 
     X_test, Y_test = load_batch_file(os.path.join(dir, 'test_batch'))
+    X_test = X_test/255
 
     return X_train, Y_train, X_test, Y_test
