@@ -5,3 +5,4 @@ lib/__pycache__/
 lib/datasets/cifar-10-batches-py/
 saved_models/imdb_compiled_clf_120dim.h5
 saved_models/imdb_compiled_clf_70dim.h5
+saved_models/imdb_compiled_clf_120dim.h5
